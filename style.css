@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --fontP: 'Inter';
+}
+
+h3{
+    color: rgb(255, 187, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.088);
+}
+
+header{
+    text-align: center;
+    background-color: lightgray; 
+}
+
+section#fundo{
+    background-image: url('imagens/fundo-principal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section > img#logo{
+    padding-top: 7em;
+}
+
+section > h1{
+    padding: 5px 0px 10px 0px;
+    color: rgb(255, 187, 0);
+    font-family: var(--fontP);
+}
+section > p{
+    padding: 10px;
+    color: rgb(255, 187, 0);
+}
+section > p#status{
+    background-color: white;
+    color: rgb(186, 150, 58);
+    font-weight: 500;
+    width: 180px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+main{
+    font-family: var(--fontP);
+}
+p{
+    font-family: var(--fontP);
+}
