@@ -10,20 +10,25 @@
     --fontP: 'Inter';
 }
 
-h3{
-    color: rgb(255, 187, 0);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.088);
-}
-
 header{
     text-align: center;
     background-color: lightgray; 
 }
+header > nav{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+main{
+    background-color: lightgray;
+    font-family: var(--fontP);
+}
 
 section#fundo{
-    background-image: url('imagens/fundo-principal.jpg');
+    background-image: url('imagens/fundonPrin.png');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 10px;
 }
 
 section > img#logo{
@@ -32,25 +37,38 @@ section > img#logo{
 
 section > h1{
     padding: 5px 0px 10px 0px;
-    color: rgb(255, 187, 0);
+    color: white;
+    text-transform: uppercase;
     font-family: var(--fontP);
 }
 section > p{
     padding: 10px;
-    color: rgb(255, 187, 0);
+    color: white;
 }
 section > p#status{
     background-color: white;
-    color: rgb(186, 150, 58);
-    font-weight: 500;
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
     width: 180px;
     border-radius: 10px;
     margin: auto;
 }
 
-main{
-    font-family: var(--fontP);
-}
 p{
     font-family: var(--fontP);
+}
+
+ul {
+    column-count: 2;
+}
+li > h3{
+    padding: 10px;
+    color: #ffa600;
+}
+
+.cardapio{
+    margin: 20px 200px 20px 200px;
+    padding: 80px;
+    background-color: white;
+    border-radius: 13px;
 }
